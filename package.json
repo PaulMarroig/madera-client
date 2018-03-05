@@ -1,0 +1,27 @@
+{
+  "name": "madera-client",
+  "version": "1.0.0",
+  "description": "Required packages for madera client interface",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaellesgt/madera-client.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "Annaelle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaellesgt/madera-client/issues"
+  },
+  "homepage": "https://github.com/annaellesgt/madera-client#readme"
+}
