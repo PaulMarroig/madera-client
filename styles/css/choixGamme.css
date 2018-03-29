@@ -1,0 +1,36 @@
+#title-choix-gamme {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: Calibri;
+  font-weight: bold;
+  font-size: 35px; }
+
+#container-gamme {
+  width: 55%;
+  margin: 0 auto;
+  height: 750px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  #container-gamme .gamme {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase; }
+    #container-gamme .gamme input {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      height: 100%;
+      visibility: hidden; }
+    #container-gamme .gamme img {
+      width: 320px;
+      height: 320px;
+      border: 1px solid darkgrey;
+      box-shadow: 1px grey;
+      border-radius: 5px;
+      cursor: pointer; }
+
+#container-button-gamme {
+  text-align: center; }
+
+/*# sourceMappingURL=choixGamme.css.map */
