@@ -3,14 +3,26 @@ html, body, main {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: Calibri;
 }
 
+main {
+  position: absolute;
+}
+
+#main-title {
+  margin-top: 9%;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
 #carousel {
   position: relative;
   height: 400px;
-  top: 50%;
+  top: 25%;
   transform: translateY(-50%);
   overflow: hidden;
+  margin: 0 15%;
 
   div {
     position: absolute;
@@ -88,6 +100,21 @@ html, body, main {
       img {
         width: 200px;
       }
+    }
+  }
+}
+
+
+#container-button {
+  position: absolute;
+  width: 100%;
+  bottom: 20%;
+  #button-start {
+    display: block;
+
+    #button-start-link {
+      text-decoration: none;
+      color: white;
     }
   }
 }
