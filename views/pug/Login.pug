@@ -1,0 +1,22 @@
+html
+	head
+		link(rel="stylesheet" type="text/css" href="../../styles/css/bootstrap/bootstrap.css")
+		meta(charset="utf-8")
+		title Connexion madera
+	body
+		.container.h-100.w-100.d-flex.flex-row
+			.row.w-100.justify-content-center.align-items-center
+				.col-md-12
+					h2.text-center.text-black.mb-4 Madera - Création de devis
+					.row
+						.col-md-6.mx-auto
+							.card.rounded-0
+								.card-header
+									h3.mb-0 Se connecter
+								.card-body
+									form.form(role="form",autocomplete="off",method="POST")
+										.form-group
+											input(placeholder="Email",required="").form-control.form-control-lg.rounded-0
+										.form-group
+											input(placeholder="Mot de passe",required="").form-control.form-control-lg.rounded-0
+										button(type="submit").btn.btn-info.btn-lg.float-right Connexion
