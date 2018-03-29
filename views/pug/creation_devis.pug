@@ -1,0 +1,78 @@
+html
+    head
+        title Creation devis
+        link(rel="stylesheet" type="text/css" href="../../styles/css/bootstrap/bootstrap.css")
+    body
+        .container
+            .row
+                form.form(role="form",autocomplete="off",method="POST").col-md-12
+                    .row
+                        .newClient.col-md-6
+                            .form-group.row
+                                label(for="nouveauCLient").col-4.col-form-label Nouveau Client
+                            .form-group.row
+                                label(for="Nom").col-4.col-form-label Nom
+                                .col-md-6
+                                    input(type="text",placeholder="Nom",required)#Nom.form-control
+                            .form-group.row
+                                label(for="Prenom").col-4.col-form-label Prenom
+                                .col-md-6
+                                    input(type="text",placeholder="Prenom",required)#Prenom.form-control
+                            .form-group.row
+                                label(for="Societe").col-4.col-form-label Societe
+                                .col-md-6
+                                    input(type="text",placeholder="Societe")#Societe.form-control
+                            .form-group.row
+                                label(for="Adresse1").col-4.col-form-label Adresse 1
+                                .col-md-6
+                                    input(type="text",placeholder="Adresse 1",required)#Adresse1.form-control
+                            .form-group.row
+                                label(for="Adresse2").col-4.col-form-label Adresse 2
+                                .col-md-6
+                                    input(type="text",placeholder="Adresse 2")#Adresse2.form-control
+                            .form-group.row
+                                label(for="CodePostal").col-4.col-form-label Code Postal
+                                .col-md-6
+                                    input(type="text",placeholder="Code Postal",required)#CodePostal.form-control
+                            .form-group.row
+                                label(for="Pays").col-4.col-form-label Pays
+                                .col-md-6
+                                    input(type="text",placeholder="Pays",required)#Pays.form-control
+                            .form-group.row
+                                label(for="Telephone").col-4.col-form-label Telepehone
+                                .col-md-6
+                                    input(type="tel",placeholder="Telephone",required)#Telepehone.form-control
+                        .alreadyClient.col-md-6
+                            .form-group.row
+                                label(for="dejaCLient").col-4.col-form-label Deja client
+                                .col-md-6
+                                    input(type="text",placeholder="Ref. Client",required)#dejaClient.form-control
+                            .form-group.row
+                                .card.mx-auto
+                                    .card-header Adresse du site de construction
+                                    .card-body
+                                        .form-group.row
+                                            .form-check
+                                                input(type="checkbox")#checkAdress.form-check-input
+                                                label(for="checkAdress").form-check-label Meme adresse que le client
+                                        .form-group.row
+                                            label(for="nomSite").col-5.col-form-label Nom du site
+                                            .col-md-7
+                                                input(type="text",placeholder="Nom du site",required)#nomSite.form-control
+                                        .form-group.row
+                                            label(for="adresse1DejaClient").col-5.col-form-label Adresse 1
+                                            .col-md-7
+                                                input(type="text",placeholder="Adresse 1",required)#adresse1DejaClient.form-control
+                                        .form-group.row
+                                            label(for="adresse2DejaClient").col-5.col-form-label Adresse 2
+                                            .col-md-7
+                                                input(type="text",placeholder="Adresse 2")#adresse2DejaClient.form-control
+                                        .form-group.row
+                                            label(for="codePostalDejaClient").col-5.col-form-label Code Postal
+                                            .col-md-7
+                                                input(type="text",placeholder="Code Postal",required)#codePostalDejaClient.form-control
+                                        .form-group.row
+                                            label(for="paysDejaClient").col-5.col-form-label Pays
+                                            .col-md-7
+                                                input(type="text",placeholder="Pays",required)#paysDejaCLient.form-control
+
